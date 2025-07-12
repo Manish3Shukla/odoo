@@ -1,0 +1,48 @@
+.item-detail-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 40px;
+  background: #fff;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.item-image img {
+  max-width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.item-info {
+  flex: 1;
+}
+
+.item-info h2 {
+  margin-top: 0;
+}
+
+.action-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.btn.secondary {
+  background: #636e72;
+}
+
+.badge.available {
+  background: #55efc4;
+  color: #2d3436;
+}
+
+.badge.pending {
+  background: #ffeaa7;
+  color: #2d3436;
+}
+
+.badge.swapped {
+  background: #dfe6e9;
+  color: #636e72;
+}

@@ -1,0 +1,13 @@
+.swap-entry {
+  background: #f1f2f6;
+  padding: 16px;
+  margin-bottom: 14px;
+  border-radius: 10px;
+  border-left: 5px solid #00b894;
+}
+
+.swap-entry form {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
