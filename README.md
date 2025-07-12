@@ -89,10 +89,12 @@ rewear/
 ## ⚙️ Setup Instructions
 
 1. **Clone the repo**
+
    ```bash
    git clone https://github.com/yourusername/rewear.git
    cd rewear
-Import MySQL Database
+
+2 Import MySQL Database
 
 Use phpMyAdmin or MySQL CLI
 
@@ -100,27 +102,30 @@ Create a database rewear
 
 Import rewear.sql (you'll need to create one with the schema)
 
-Configure DB Connection
+3 Configure DB Connection
+   ```
 
 Edit includes/db.php:
 
 $conn = mysqli_connect("localhost", "root", "", "rewear");
-(Optional) Enable PHPMailer for email
+   ```
 
-Install with Composer:
+
+4 (Optional) Enable PHPMailer for email
+
+```Install with Composer:
 
 composer require phpmailer/phpmailer
 Configure SMTP in swap_action.php
 
+
+```
+
+
 ✅ To-Do / Improvements
  Responsive design for mobile users
-
  Search & filter (tags, size, category)
-
  User-to-user messaging or chat
-
  Admin user management
-
  Points transaction history
-
  Dark mode
